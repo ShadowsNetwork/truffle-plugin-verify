@@ -1,21 +1,21 @@
 const API_URLS = {
-  1: 'https://api.etherscan.io/api',
-  3: 'https://api-ropsten.etherscan.io/api',
-  4: 'https://api-rinkeby.etherscan.io/api',
-  5: 'https://api-goerli.etherscan.io/api',
-  42: 'https://api-kovan.etherscan.io/api',
-  56: 'https://api.bscscan.com/api',
-  97: 'https://api-testnet.bscscan.com/api'
+  1: 'http://api.etherscan.io/api',
+  3: 'http://api-ropsten.etherscan.io/api',
+  4: 'http://api-rinkeby.etherscan.io/api',
+  5: 'http://api-goerli.etherscan.io/api',
+  42: 'http://api-kovan.etherscan.io/api',
+  56: 'http://api.bscscan.com/api',
+  97: 'http://api-testnet.bscscan.com/api'
 }
 
 const EXPLORER_URLS = {
-  1: 'https://etherscan.io/address',
-  3: 'https://ropsten.etherscan.io/address',
-  4: 'https://rinkeby.etherscan.io/address',
-  5: 'https://goerli.etherscan.io/address',
-  42: 'https://kovan.etherscan.io/address',
-  56: 'https://bscscan.com/address',
-  97: 'https://testnet.bscscan.com/address'
+  1: 'http://etherscan.io/address',
+  3: 'http://ropsten.etherscan.io/address',
+  4: 'http://rinkeby.etherscan.io/address',
+  5: 'http://goerli.etherscan.io/address',
+  42: 'http://kovan.etherscan.io/address',
+  56: 'http://bscscan.com/address',
+  97: 'http://testnet.bscscan.com/address'
 }
 
 const RequestStatus = {
